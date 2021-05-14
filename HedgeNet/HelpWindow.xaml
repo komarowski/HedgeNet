@@ -1,0 +1,30 @@
+﻿<Window x:Class="HedgeNet.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HedgeNet"
+        mc:Ignorable="d"
+        Title="Help" Icon="Images/hedgehogIcon.ico" Height="412" Width="610" ResizeMode="NoResize" FontFamily="Arial" Background="#3AAFA9"  WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <TextBlock Margin="10" FontSize="26" Foreground="#FEFFFF">
+			Overview
+            </TextBlock>
+            <TextBlock Margin="10" FontSize="20" TextTrimming="CharacterEllipsis" Foreground="#17252A" Height="101">
+			Hedge.net is a password management application for Windows <LineBreak/> 
+            based PCs. The application is designed for random generation, <LineBreak/>
+            secure storage and easy access to passwords through a simple <LineBreak/> 
+            user interface (UI).
+            </TextBlock>
+            <TextBlock Margin="10" FontSize="20" TextTrimming="CharacterEllipsis" Foreground="#17252A" Height="180">
+			Some key features of Hedge.net:<LineBreak/> <LineBreak/> 
+            - generating strong passwords<LineBreak/>
+            - quick copy password and login to clipboard<LineBreak/>
+                - editing and deleting with the right mouse button<LineBreak/>
+                - storing passwords in "data.txt" file in encrypted form<LineBreak/>
+                - creating a Word document with your data
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

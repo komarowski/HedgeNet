@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\copy.png" />
+    <None Remove="Images\eye.png" />
+    <None Remove="Images\hedgehog.png" />
+    <None Remove="Images\hedgehogAuth.png" />
+    <None Remove="Images\hedgehogIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocX" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\eye.png" />
+    <Resource Include="Images\hedgehogAuth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\hedgehogIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Images\hedgehog.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

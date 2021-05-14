@@ -1,0 +1,14 @@
+﻿<Window x:Class="HedgeNet.Authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HedgeNet"
+        mc:Ignorable="d"
+        Title="Authorization" Icon="Images/hedgehogIcon.ico" Height="385" Width="310" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,277,0,0" VerticalAlignment="Top" Width="162" Height="43" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" FontSize="20" PasswordChanged="PasswordChangedHandler"/>
+        <Image x:Name="image" HorizontalAlignment="Center" Height="286" Margin="0,-11,0,0" VerticalAlignment="Top" Width="290" RenderTransformOrigin="0.742,0.471" Source="Images/hedgehogAuth.png"/>
+
+    </Grid>
+</Window>
