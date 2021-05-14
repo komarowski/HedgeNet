@@ -4,7 +4,7 @@ HedgeNet is a simple password management application for Windows based PCs. The 
 
 ## Demo
 
-![](https://github.com/komarowski/HedgeNet/tree/main/gif)
+![](https://github.com/komarowski/HedgeNet/blob/main/gif/Hedgenet.gif)
 
 ## Requirements
 
